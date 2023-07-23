@@ -1,274 +1,297 @@
 /* Reset default margin and padding */
 body, h1, h2, h3, h4, h5, h6, ul, li {
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #fff;
-    color: #333;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  nav ul li {
-    margin-left: 20px;
-  }
-  
-  nav ul li a {
-    color: #333;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  nav ul li a:hover {
-    color: #333;
-  }
-  
-  #hero {
-    background-color: #41456d31;
-    color: #000000;
-    text-align: center;
-    padding: 100px 0;
-  }
-  
-  .hero-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  .hero-text {
-    flex: 1;
-    text-align: center;
-  }
-  
-  h1 {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .hero-subtitle {
-    font-size: 24px;
-    margin-bottom: 30px;
-  }
-  
-  .cta-button {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: #333333;
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-    border-radius: 4px;
-  }
-  
-  .cta-button:hover {
-    background-color: #4b4b4b;
-  }
+/* Common styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-  .hero-image {
-    flex: 1;
-    text-align: center;
-  }
+/* Center align the title and description within the container */
+.text-center {
+  text-align: center;
+}
 
-  .hero-image img {
-    width: 200px; /* Adjust the width as per your preference */
-    border-radius: 50%;
-  }
-  
-  #about {
-    background-color: #f2f2f2;
-    padding: 100px 100px;
-    text-align: left;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-  }
-  
-  .about-content {
-    max-width: 1200px;
-    margin-bottom: 40px;
-  }
-  
-  h2 {
-    font-size: 36px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  p {
-    font-size: 18px;
-    color: #555;
-    line-height: 1.6;
-    margin-bottom: 20px;
-  }
-  
-  #portfolio {
-    background-color: #41456d31;
-    padding: 100px 100px;
-    text-align: center;
-  }
-  
-  .projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 20px;
-  }
-  
-  .project-card {
-    width: 30%;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    margin-bottom: 30px;
-    margin-left: 1px;
-  }
-  
-  .project-card img {
-    width: 100%;
-    border-radius: 4px;
-    margin-bottom: 20px;
-  }
-  
-  .project-card h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .project-card p {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 20px;
-  }
-  
-  .project-card a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 4px;
-  }
-  
-  .project-card a:hover {
-    background-color: #4b4b4b;
-  }
-  
-  #contact {
-    background-color: #f2f2f2;
-    padding: 100px 0;
-    text-align: center;
-  }
-  
-  #contact h2 {
-    font-size: 36px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  #contact p {
-    font-size: 18px;
-    color: #555;
-    margin-bottom: 30px;
-  }
-  
-  form {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: left;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  label {
-    display: block;
-    font-size: 18px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 5px;
-  }
-  
-  input, textarea {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  button {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 18px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #4b4b4b;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .social-icons {
-    margin-top: 10px;
-  }
-  
-  .social-icons a {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    background-color: #fff;
-    color: #1e3050;
-    font-size: 24px;
-    line-height: 40px;
-    text-align: center;
-    border-radius: 50%;
-    margin: 0 5px;
-    text-decoration: none;
-  }
-  
-  .social-icons a:hover {
-    background-color: #4b4b4b;
-    color: #333;
-  }
-  
+/* Header styles */
+header {
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #333;
+}
+
+/* Hero section styles */
+#hero {
+  background-color: #41456d31;
+  color: #000000;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  flex: 1;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #333333;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.cta-button:hover {
+  background-color: #4b4b4b;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-image img {
+  width: 200px; /* Adjust the width as per your preference */
+  border-radius: 50%;
+}
+
+/* About section styles */
+#about {
+  background-color: #f2f2f2;
+  padding: 100px 100px;
+  text-align: left;
+}
+
+.about-content {
+  max-width: 1200px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Portfolio section styles */
+#portfolio {
+  background-color: #41456d31;
+  padding: 100px 100px;
+  text-align: center;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.project-card {
+  width: 30%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 30px;
+  margin-left: 1px;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.project-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.project-card a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.project-card a:hover {
+  background-color: #4b4b4b;
+}
+
+/* Styling for Font Awesome icons */
+.fas, .fab {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+/* Center align the title and description within the container */
+.text-center {
+  text-align: center;
+}
+
+/* Styling for the Contact section */
+#contact {
+  background-color: #f2f2f2;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-button {
+  display: inline-flex;
+  align-items: center;
+  margin: 10px;
+  padding: 12px 24px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button i {
+  margin-right: 10px;
+}
+
+.contact-button:hover {
+  background-color: #4b4b4b;
+}
+
+/* Align contact information in the center */
+.contact-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-icons {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  color: #1e3050;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 5px;
+  text-decoration: none;
+  align-items: center;
+}
+
+.social-icons a:hover {
+  background-color: #4b4b4b;
+  color: #333;
+}
+
+/* Styling for Font Awesome icons */
+.fas, .fab {
+  font-size: 25px;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  margin-left: 6px;
+  margin-right: 5px;
+}
