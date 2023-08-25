@@ -7,61 +7,69 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
-<body>
-    <header>
-        <div class="logo">Ankit Patel</div>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="index.html#portfolio">Portfolio</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
-          </ul>
-        </nav>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script>
-        $(document).ready(function() {
-          // Smooth scroll to target sections
-          $('a[href^="#"]').on('click', function(event) {
-            var target = $(this.getAttribute('href'));
-            if (target.length) {
-              event.preventDefault();
-              $('html, body').stop().animate({
-                scrollTop: target.offset().top
-              }, 1000); // Adjust the scroll duration (in milliseconds) as desired
-            }
-          });
-        });
-        </script>
-      </header>
 
-    <section id="about">
-        <div class="container">
-            <div class="about-content">
-                <h2 class="text-center">About Me</h2>
-                <p>Your about content goes here...</p>
-                <a href="index.html" class="cta-button">Back to Home</a>
-            </div>
+<body>
+  <header>
+      <div class="logo">Ankit Patel</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="index.html#portfolio">Portfolio</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+      $(document).ready(function() {
+        // Smooth scroll to target sections
+        $('a[href^="#"]').on('click', function(event) {
+          var target = $(this.getAttribute('href'));
+          if (target.length) {
+            event.preventDefault();
+            $('html, body').stop().animate({
+              scrollTop: target.offset().top
+            }, 1000); // Adjust the scroll duration (in milliseconds) as desired
+          }
+        });
+      });
+      </script>
+    </header>
+
+  <main>
+    <section id="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>About Me</h1>
+          <a href="index.html" class="cta-button">Back to Home</a>
         </div>
+      </div>
     </section>
 
-    <!-- Rest of your content -->
+    <section id="about">
+      <div class="container">
+        <div class="about-content">
+            <p>Your about content goes here...</p>
+        </div>
+      </div>
+    </section>
+  </main>
 
     <footer>
-        <div class="container">
-          <p>&copy; 2023 Ankit Patel. All rights reserved.</p>
-          <div class="social-icons">
-            <!-- Add links to your social media profiles here -->
-            <a href="https://github.com/ank1tpatel" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-github"></i>
-            <a href="https://www.linkedin.com/in/patel-ankit/" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="https://medium.com/@ank1tpatel" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-medium"></i>
-            </a>
-          </div>
+      <div class="container">
+        <p>&copy; 2023 Ankit Patel. All rights reserved.</p>
+        <div class="social-icons">
+          <!-- Add links to your social media profiles here -->
+          <a href="https://github.com/ank1tpatel" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github"></i>
+          <a href="https://www.linkedin.com/in/patel-ankit/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://medium.com/@ank1tpatel" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-medium"></i>
+          </a>
         </div>
-      </footer>
+      </div>
+    </footer>
 </body>
 </html>
